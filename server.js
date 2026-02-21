@@ -56,14 +56,14 @@ app.use(errorHandler);
 
 // Start server
 app.listen(PORT, () => {
-  console.log(`
-╔══════════════════════════════════════════╗
-║  Savra Teacher Insights Dashboard        ║
-║  Backend Server Running                 ║
-║  Port: ${PORT}                          ║
-║  Environment: ${process.env.NODE_ENV || 'development'}         ║
-╚══════════════════════════════════════════╝
-  `);
+//   console.log(`
+// ╔══════════════════════════════════════════╗
+// ║  Savra Teacher Insights Dashboard        ║
+// ║  Backend Server Running                 ║
+// ║  Port: ${PORT}                          ║
+// ║  Environment: ${process.env.NODE_ENV || 'development'}         ║
+// ╚══════════════════════════════════════════╝
+//   `);
 });
 
 export default app;
